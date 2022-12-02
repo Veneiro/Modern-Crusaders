@@ -1,0 +1,66 @@
+@font-face {
+    font-family: "Modern Crusaders";
+    src: url('/multimedia/font/Magnificent\ Personal\ Use.ttf')
+}
+
+.header > div > nav {
+    font-size: 1em;
+    width: 100%;
+    text-align: center;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(6, 6fr);
+    margin: 1em;
+}
+
+.menu_item{
+    text-align: center;
+}
+
+.menu_item > a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu_item > a:hover{
+    color: #FFD800;
+    text-decoration: none;
+}
+
+.header > div > img {
+    width: 100%;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+#linksMainPageInfo{
+    margin: 2em;
+    color:#FFD800;
+    text-align: center;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.footer > img {
+    width:35%;
+    margin-left: 3em;
+}
+
+#Hastag{
+    display: grid;
+    grid-template-rows: repeat(3);
+}
+
+#Hastag > h1 {
+    width: 100%;
+    color:#FFD800;
+    grid-row: 2;
+    font-size: 2.5em;
+}
