@@ -3,7 +3,7 @@
     src: url('/multimedia/font/Magnificent\ Personal\ Use.ttf')
 }
 
-.header > div > nav {
+header > div > nav {
     font-size: 1em;
     width: 100%;
     text-align: center;
@@ -29,7 +29,7 @@
     text-decoration: none;
 }
 
-.header > div > img {
+header > div > img {
     width: 100%;
 }
 
@@ -43,12 +43,12 @@ body{
     text-align: center;
 }
 
-.footer{
+footer{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
 
-.footer > img {
+footer > img {
     width:35%;
     margin-left: 3em;
 }
@@ -63,4 +63,30 @@ body{
     color:#FFD800;
     grid-row: 2;
     font-size: 2.5em;
+}
+
+h2, h3, h4, h5, h6 {
+    color:#FFD800;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+}
+
+p {
+    color:#FFD800;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+#headerImage {
+    border-bottom-style: solid;
+    border-bottom-color: #FFD800;
+    border-top-style: solid;
+    border-top-color: #FFD800;
+}
+
+@media (max-width: 600px) {
+    header nav {
+        flex-direction: column;
+    }
 }
